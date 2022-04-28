@@ -34,11 +34,11 @@ steps:
 
 - task: TwineAuthenticate@1
   inputs:
-    artifactFeed: 'simple-hello-world-package-feed-new'
+    artifactFeed: 'simple-hello-world-package-feed'
    # pythonUploadServiceConnection: '<twine service connection from external organization>'
 
 
 - script: |
-   twine upload -r "simple-hello-world-package-feed-new" --config-file $(PYPIRC_PATH) dist/*
+   twine upload -r "simple-hello-world-package-feed" --config-file $(PYPIRC_PATH) dist/*
 
   
