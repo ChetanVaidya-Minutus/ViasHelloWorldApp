@@ -25,6 +25,8 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
+    run: |
+        export PYTHONPATH=src
     pytest
   displayName: 'pytest'
 
