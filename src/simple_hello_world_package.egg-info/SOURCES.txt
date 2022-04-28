@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/simple_hello_world_package.egg-info/PKG-INFO
+src/simple_hello_world_package.egg-info/SOURCES.txt
+src/simple_hello_world_package.egg-info/dependency_links.txt
+src/simple_hello_world_package.egg-info/top_level.txt
